@@ -1,0 +1,26 @@
+{
+  "name": "gst-invoice-server",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "eslint-plugin-flowtype": "^5.1.0",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "uuid": "^8.0.0"
+  },
+  "scripts": {
+    "server": "nodemon server.js",
+    "mongoShell": "cd C:\\Program Files\\MongoDB\\Server\\4.2\bin\\mongo",
+    "serverWithEnv":"env-cmd nodemon server.js"
+  },
+  "devDependencies": {
+    "bcrypt": "^4.0.1",
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
