@@ -17,6 +17,7 @@ router.get('/',verify, (req, res) => {
     } else {
         Client.find({}, (err, clients) => {
             if (err) {
+                res.set('access-control-allow-origin','*')
                 res.status(500).send(err)
             } else if (clients) {
                 res.send(clients)

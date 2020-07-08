@@ -15,7 +15,6 @@
   },
   "scripts": {
     "server": "nodemon server.js",
-    "mongoShell": "cd C:\\Program Files\\MongoDB\\Server\\4.2\bin\\mongo",
     "serverWithEnv": "env-cmd nodemon server.js"
   },
   "devDependencies": {
