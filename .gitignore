@@ -1,4 +1,4 @@
 .gitignore
 .env
-procfile
+Procfile
 node_modules
